@@ -44,8 +44,9 @@ public static int factorial(int n) {
 ## 下一个栗子 - 泰波那契数
 由于斐波那契数的计算量太小了，所以我们引入了泰波那契数。
 泰波那契序列 Tn 定义如下： 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$T_0$$ = 0, $$T_1$$ = 1, $$T_2$$ = 1, 且在 n >= 0 的条件下 $$T_{n+3}$$ = $$T_n$$ + $$T_{n+1}$$ + $$T_{n+2}$$
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= $$T_0$$ = 0,$$T_1$$ = 1, $$T_2$$ = 1" style="border:none;">
+且在 n >= 0 的条件下 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= $$T_{n+3}$$ = $$T_n$$ + $$T_{n+1}$$ + $$T_{n+2}$$" style="border:none;">
 
 ### 问题
 给你整数 n，请返回第 n 个泰波那契数 Tn 的值。
